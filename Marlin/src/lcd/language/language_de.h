@@ -33,7 +33,7 @@ namespace Language_de {
   using namespace Language_en; // Inherit undefined strings from English
 
   constexpr uint8_t    CHARSIZE                            = 2;
-  PROGMEM Language_Str LANGUAGE                            = _UxGT("Deutsche");
+  PROGMEM Language_Str LANGUAGE                            = _UxGT("Deutsch");
 
   PROGMEM Language_Str WELCOME_MSG                         = MACHINE_NAME _UxGT(" bereit");
 

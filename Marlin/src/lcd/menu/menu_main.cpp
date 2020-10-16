@@ -197,7 +197,7 @@ void menu_main() {
   #endif
 
   #if ENABLED(LEVEL_BED_CORNERS) && DISABLED(LCD_BED_LEVELING)
-    ACTION_ITEM(MSG_LEVEL_CORNERS, _lcd_level_bed_corners);
+    if (!busy) ACTION_ITEM(MSG_LEVEL_CORNERS, _lcd_level_bed_corners);
   #endif
   
   SUBMENU(MSG_CONFIGURATION, menu_configuration);
